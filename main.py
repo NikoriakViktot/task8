@@ -1,15 +1,19 @@
 
 
     # Task1
+
 def oops():
-    raise KeyError
+    raise IndexError
 def doomed():
     try:
-       oops()
+        oops()
     except IndexError:
-        print('caught an  index    error!')
+        print('caught an index error!')
     else:
-        print('no    error    caught.')
+        print('no error caught...')
+if __name__ == '__main__': doomed()
+
+# Task2
 
 
 
