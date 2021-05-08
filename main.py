@@ -19,12 +19,14 @@ if __name__ == '__main__':
 
 
 # Task2
-while True:
+def c (c: int):
+for True:
     try:
         a = int(input('Enter a:'))
         b = int(input('Enter b:'))
         c = a**2/b
-        print("a**2/b = %d" % c)
+        #print("a**2/b = %d" % c)
+        
     except ValueError:
         print('No valid integer! Please try again ...')
     except Exception:
@@ -32,3 +34,5 @@ while True:
         print(Exception)
     else:
         print('Hi I am else block')
+exit(0)        
+print(c)
